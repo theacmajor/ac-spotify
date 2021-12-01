@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.spotify-logo{
+    min-width: 15%;
+    width: 200px;
+    margin: 20px 0 20px 0;
+}
+.divider{
+    height: 1px;
+    /* width: 100vw; */
+    background-color: #D9DADC;
+    margin-bottom: 30px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    align-items: center;
+    /* flex-grow: 0; */
+}
+.btn{
+    font-size: 14px;
+    font-weight: 700;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    padding: 15px 0 15px 0;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    margin-bottom: 10px;
+    min-width: 40%;
+    width: 400px;
+    align-self: center;
+}
+.btn-blue{
+    background-color: #3C5997;
+}
+.btn-black{
+    background-color: black;
+}
+.btn-white{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.icon{
+    margin-right: 12px;
+    position: relative;
+    top: 2px;
+    /* margin-top: 12px; */
+}
+.divider-2{
+    width: 18vw;
+    height: 1px;
+    background-color: #D9DADC;
+}
+.OR{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px 10px 0px;
+    /* align-self: flex-start; */
+}
+.OR p{
+    margin-inline: 10px;
+    font-size: 10px;
+    font-weight: 600;
+    
+}
+.wrapper-2{
+    margin: auto;
+    width: 40vw;
+    min-width: 400px;
+}
+label{
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.styled input{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    color: #222326;
+    padding: 10px;
+    border: 1px solid #D9DADC;
+    margin-bottom: 20px;
+}
+.wrapper-2 p{
+    text-decoration: underline;
+    transition: color 0.1s linear;
+    margin-bottom: 50px;
+}
+.wrapper-2 p:hover{
+    color: #14883D;
+    cursor: pointer;
+}
+.checkbox{
+    margin-right: 5px;
+}
+.remember-me{
+    display: inline;
+    font-weight: normal;
+}
+.checkbox-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.btn-login{
+    width: 10%;
+    background-color: #14883D;
+}
+.divider-3{
+    height: 1px;
+    background-color: #D9DADC;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.p-bold{
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.btn-signup{
+    width: 100%;
+    transition: all  0.3s linear;
+}
+.btn-signup:hover{
+    background-color: #000;
+    color: white;
+}
